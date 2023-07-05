@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+header {
+  background-color: #111111;
+}
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  list-style: none;
+  margin: 0;
+  padding-top: 39px;
+  padding-bottom: 39px;
+  gap: 120px;
+}
+.container {
+  max-width: 1920px;
+}
+.navigation-list-link {
+  color: #fff;
+}
+
+.sect-one {
+  background-image: url(../images/bckg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1038px;
+}
+.header-one {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  padding-top: 260px;
+}
